@@ -1,0 +1,27 @@
+{
+  "name": "trunk",
+  "version": "1.0.0",
+  "description": "Node based BioMag practitioner web",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.3.19",
+    "body-parser": "^1.16.1",
+    "chalk": "^1.1.3",
+    "ejs": "^1.0.0",
+    "jsonwebtoken": "^7.2.1",
+    "massive": "^2.5.0",
+    "moment": "^2.17.1",
+    "mysql": "^2.10.0",
+    "node-uuid": "^1.4.7",
+    "openurl": "^1.1.1",
+    "underscore": "^1.8.3",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

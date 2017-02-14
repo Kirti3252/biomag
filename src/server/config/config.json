@@ -1,0 +1,29 @@
+{ "db_ConnString": "postgres://lvrdoxuc:VwTN5BlZm6blo02-JtmnhI0YbQBC6TtO@elmer.db.elephantsql.com:5432/lvrdoxuc",
+   	"database" : {
+    "port": "9000",
+    "dbName": "db_a14a35_nodejs",
+    "dbHost": "mysql5015.smarterasp.net",
+    "dbUserName": "a14a35_nodejs",
+    "dbPassword": "Power@1234",
+    "recordReterived_Success_Message": "Executed Successfully",
+    "recordReterived_Failed_Message": "Execution Failure"
+    }, 
+  "authToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2IjowLCJpYXQiOjE0ODA2NjE0NDEsImQiOnsidWlkIjoiMTA4IiwiRmlyc3ROYW1lIjoiV",
+    "cryptoAlgorithim": "aes-256-ctr",
+    "cryptoSecurityKey": "d>6F3?xUW5*Efeq",
+    "jwtTokenExpiryTime": 10800,
+    "apiWhiteList": [ 
+        "/api/account/authentication"
+    ],
+    "s3": {
+        "API_KEY": "AKIAI646IF5TTGYTQTLQ",
+        "API_SECRET_KEY": "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",
+        "REGION": "US Standard",
+        "S3_BUCKET": "baby-collections",
+        "S3_URL": "https://s3.amazonaws.com/baby-collections/"
+    },
+    "Controllers": [
+        "users",
+        "genericmaster"
+]
+}
